@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Testing Range 2nd Page</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" ; /> -->
+  <style>
+    body {
+      background-color: darkslategrey;
+    }
+
+    h2 {
+      color: darkslategrey;
+    }
+
+    h2:hover {
+      color: slateblue;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .centered {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    
+    .render {
+      image-rendering: pixelated;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      cursor: none;
+      touch-action: none;
+      top: var(--screen-underscan);
+      left: var(--screen-underscan);
+    }
+
+    q {
+      color: yellow;
+      font-family: verdana;
+      border: 2px solid goldenrod;
+      padding: 5;
+      margin: 50px;
+
+      a:link, a:visited {
+      }
+
+      a:hover, a:active {
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color:slategrey;">
+  <h2 class="centered">Links by images (SVGs here)</h2>
+  <br>
+  <a href="/index.html"><img src="MacFileSVG.svg" alt="1st Page" style="width:42px;height:42px;"title="Page 1: '/index.html' or '/'"></a><br>
+  <p class="centered">Or,</p>
+
+  <a href="/morepage.html" id="P1">
+    <img src="MacFileSVG.svg" 
+      alt="3rd Page" 
+      style="width:42px;height:42px;"
+      title="Page 3: '/morepage.html'" 
+      class="centered">
+  </a>
+  <br><br><br>
+  <hr>
+  <br><br><button onclick="document.location='index.html'">Back to Page 1</button><br><br>
+  <a href="mailto:maxim@boredsheep.uk">Send me an Email !</a>
+  <img src="BackgroundLisa2.png" alt="Test" width="512" height="342" class="render">
+
+  <img src="BackPlane.png" alt="Test" width="512" height="342">
+  <img src="BackPlane2.png" alt="Test" width="512" height="342">
+  <img src="BackPlane3.png" alt="Test" width="512" height="342">
+  
+  <br>
+  <br>
+</body>
+
+</html>
