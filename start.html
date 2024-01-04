@@ -42,9 +42,9 @@
       margin-right: auto;
       text-align: center;
       font-family: 'Barlow', sans-serif;
-      font-size: 10vw;
+      font-size: 4vw;
       font-weight: 100;
-      margin-top: 2em;
+      margin-top: 0em;
       color: #ffffff;
       text-shadow: 0px 0px 20px #000000;
     }
@@ -54,7 +54,7 @@
       margin-right: auto;
       text-align: center;
       font-family: 'Barlow', sans-serif;
-      font-size: 5vw;
+      font-size: 4vw;
       font-weight: 100;
       margin-top: -1.6em;
       margin-bottom: 2em;
@@ -69,7 +69,7 @@
       font-size: 4vw;
       font-weight: 100;
       color: #ffffff;
-      margin-top: -2em;
+      margin-top: 0em;
       text-shadow: 0px 0px 20px #000000;
     }
     .centered2b {
@@ -80,7 +80,7 @@
       font-size: 3vw;
       font-weight: 100;
       color: #999999;
-      margin-top: 1em;
+      margin-top: -0.5em;
       text-shadow: 0px 0px 20px #000000;
     }
 
@@ -91,6 +91,9 @@
      grid-template-columns: 1fr 1fr;
      column-gap: 10vw;
     }
+    
+
+    align-items: center;
 
     .shadow {
       filter: drop-shadow(0px 0px 10px #000000);
@@ -105,15 +108,23 @@
 <body>
   
   <h1 class="centered1">Provenzani Maxim</h1>
-  <h2 class="centered1sub">Welcome on my portfolio !</h2>
   <div class="container">
-    <a href="/start.html"><img class="shadow" src="FileSide.svg" alt="Drive" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
-  <div>
-    <h1 class="centered2">Let's check what I saved aside for you to see !</h1>
-    <h1 class="centered2b">Just open the disk and find out a little more about me.</h1>
+    <a href="/who.html"><img class="shadow" src="FileClosed.svg" alt="File" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
+    <div>
+      <h1 class="centered2">First of all, who am I ?</h1>
+      <h1 class="centered2b">Get to know me a little better than a simple url !</h1>
+    </div>
   </div>
+  <div class="container">
+    <a href="/works.html"><img class="shadow" src="FileClosed.svg" alt="File" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
+    <div>
+      <h1 class="centered2">Some of my work !</h1>
+      <h1 class="centered2b">A peek at what I've been up to recently !</h1>
+    </div>
   </div>
-</a>
+  <div class="container">
+    <a href="/start.html"><img class="shadow" src="FileClosed.svg" alt="File" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
+  </div>
 </body>
 
 </html>

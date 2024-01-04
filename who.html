@@ -42,9 +42,9 @@
       margin-right: auto;
       text-align: center;
       font-family: 'Barlow', sans-serif;
-      font-size: 10vw;
+      font-size: 4vw;
       font-weight: 100;
-      margin-top: 2em;
+      margin-top: 0em;
       color: #ffffff;
       text-shadow: 0px 0px 20px #000000;
     }
@@ -54,7 +54,7 @@
       margin-right: auto;
       text-align: center;
       font-family: 'Barlow', sans-serif;
-      font-size: 5vw;
+      font-size: 4vw;
       font-weight: 100;
       margin-top: -1.6em;
       margin-bottom: 2em;
@@ -66,10 +66,10 @@
       margin-left: -10vw;
       text-align: left;
       font-family: 'Barlow', sans-serif;
-      font-size: 4vw;
+      font-size: 6vw;
       font-weight: 100;
       color: #ffffff;
-      margin-top: -2em;
+      margin-top: 1em;
       text-shadow: 0px 0px 20px #000000;
     }
     .centered2b {
@@ -80,7 +80,7 @@
       font-size: 3vw;
       font-weight: 100;
       color: #999999;
-      margin-top: 1em;
+      margin-top: -0.5em;
       text-shadow: 0px 0px 20px #000000;
     }
 
@@ -91,6 +91,9 @@
      grid-template-columns: 1fr 1fr;
      column-gap: 10vw;
     }
+    
+
+    align-items: center;
 
     .shadow {
       filter: drop-shadow(0px 0px 10px #000000);
@@ -99,21 +102,52 @@
       filter: invert(1);
     }
 
+    .drop {
+      filter: drop-shadow(0px 0px 10px #000000);
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      filter: drop-shadow(0px 0px 20px #000000);
+
+    .c3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 100;
+      text-shadow: 0px 0px 20px #000000;
+      margin-top: 0em;
+      font-size: 3vw;
+      color: #ffffff;
+
   </style>
 </head>
 
 <body>
   
   <h1 class="centered1">Provenzani Maxim</h1>
-  <h2 class="centered1sub">Welcome on my portfolio !</h2>
   <div class="container">
-    <a href="/start.html"><img class="shadow" src="FileSide.svg" alt="Drive" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
-  <div>
-    <h1 class="centered2">Let's check what I saved aside for you to see !</h1>
-    <h1 class="centered2b">Just open the disk and find out a little more about me.</h1>
+    <a href="/start.html"><img class="shadow" src="FileOpened.svg" alt="File" style="max-width: 70%; height: 90%;margin-left: 10vw;"></a>
+    <div>
+      <h1 class="centered2">First of all, who am I ?</h1>
+      <!-- <h1 class="centered2b">Get to know me a little better than a simple url !</h1> -->
+    </div>
   </div>
+    <img class="center" src="IMG_1565.jpg" alt="IMG_1565.jpg" style="max-width: 80%; height: auto;"></a>
   </div>
-</a>
+  <div style="font-family: 'Barlow', sans-serif;text-align: left;font-weight: 100;font-size: 4vw;color: #ffffff;text-shadow: 0px 0px 20px #000000;">
+    <h1 class="centered1" style="margin-left: 9.8vw;text-align: left;margin-top: 0.5em;">Hello, I am Maxim !</h1>
+    <h1 class="centered2" style="margin-left: 9.8vw;text-align: left;margin-top: 0em;font-size: 3vw;color: #999999;">I promise I am a tad taller than the picture you see on your screen (hopefully).</h1>
+    <h1 class="centered2" style="margin-left: 9.8vw;text-align: left;margin-top: 0em;font-size: 3vw;color: #ffffff;">I am currently a student working towards a diploma in global design but I have for an objective to join and work in the tech industry as a designer.</h1>
+    <h1 class="centered2" style="margin-left: 9.8vw;text-align: left;margin-top: 0em;font-size: 3vw;color: #999999;">I am still learning a lot of things on a day to day basis and this portfolio is a very good example of it, I didn't want it to be done with a tool making it too easy, so I coded it myself from scratch.</h1>
+     <h1 class="centered2" style="margin-left: 9.8vw;text-align: left;margin-top: 0em;font-size: 3vw;color: #ffffff;">Now you haven't clicked on this portfolio to read text have you ? I'll let you go check some of my work by closing the file up top !</h1>
+  </div>
+  
 </body>
 
 </html>
